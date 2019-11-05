@@ -1,0 +1,152 @@
+.partOne {
+    padding-top:150px;
+    display: flex;
+    flex-wrap:wrap;
+    height:600px;
+    padding-bottom:600px;
+    .partOneParaOne, 
+    .partOneParaTwo, 
+    .partOneParaThree, 
+    .partOneParaFour {
+        // width:calc(50% - 20px);
+        width:50%;
+        color:white;
+        display:flex;
+        // justify-content: center;
+        // display: inline-block;
+        p {
+            line-height: 28px;
+            letter-spacing: 1px;
+            width:100%;
+        }
+        div {
+            // display: inline-block;
+            padding:10px;
+        }
+        i {
+            // display: inline-block;
+        }
+    }
+}
+
+.partOneSection {
+    background-color:#2B331B;
+}
+
+.partOneParaTwo, 
+.partOneParaFour {
+    // margin-left:20px;
+}
+
+.partOneTextPart {
+    width:100%;
+}
+
+.partOneIcons {
+    // display:flex;
+    // align-content:flex-start;
+    margin-top:20px;
+}
+
+.headerLocation, 
+.headerCommunity, 
+.headerBlog, 
+.headerGetInTouch {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    line-height:99.8px;
+}
+
+.fasPartOne {
+    background-color:#FFD300;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    color:black;
+    text-align: center;
+    padding-top:15px;
+    font-size:30px;
+}
+
+
+// Media Query Starts
+@media (max-width:1190px) {
+    .partOne {
+       padding-bottom:100px;
+    }
+
+    .partOneSection {
+        padding-bottom:200px;
+    }
+    
+    .headerGetInTouch {
+        font-size:40px;
+    }
+}
+
+@media (max-width:1080px) {
+    .wrapper {
+        max-width:1080px;
+        width:80%;
+    }
+
+    .headerGetInTouch {
+        line-height:50px;
+    }
+
+    .partOne {
+        height:auto;
+        display:block;
+        .partOneParaOne,
+        .partOneParaTwo,
+        .partOneParaThree,
+        .partOneParaFour {
+            display:block;
+            width:100%;
+            margin-bottom:50px;
+            margin-left:0;
+        }
+        h2 {
+            font-size:40px;
+            line-height:50px;
+        }
+    }
+
+    .partOneSection {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media (max-width:700px) {
+    .wrapper {
+        max-width:700px;
+        width:95%;
+    }
+
+    .partOneIcons {
+        text-align: center;
+    }
+
+    .headerLocation, 
+    .headerCommunity, 
+    .headerBlog, 
+    .headerGetInTouch {
+        text-align: center;
+    }
+}
+
+
+@media (max-width:480px) {
+    .wrapper {
+        max-width:480px;
+        width:90%;
+    }
+
+    .partOne {
+        h2 {
+            font-size:33px;
+        }        
+    }
+    
+} 

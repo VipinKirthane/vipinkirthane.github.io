@@ -1,0 +1,33 @@
+@import "./setup";
+@import "./header";
+@import "./partOne";
+@import "./partTwo";
+@import "./partThree";
+@import "./partFour";
+@import "./footer";
+@import "./blogHeader";
+@import "./blogMain";
+@import "./blogAside";
+@import "./contactHeader";
+
+* {
+    margin:0;
+    padding:0;
+    // border:1px solid crimson;
+}
+
+.wrapper {
+    max-width:1200px;
+    width: 80%;
+    margin:0 auto;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+@media (max-width:1080px) {
+    .wrapper {
+        
+    }
+}
